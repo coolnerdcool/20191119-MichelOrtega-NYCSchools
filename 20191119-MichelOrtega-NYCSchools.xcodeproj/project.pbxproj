@@ -15,6 +15,8 @@
 		5086695723871CDE0042BD26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5086695623871CDE0042BD26 /* Assets.xcassets */; };
 		5086695A23871CDE0042BD26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5086695823871CDE0042BD26 /* LaunchScreen.storyboard */; };
 		5086696523871CDE0042BD26 /* _0191119_MichelOrtega_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5086696423871CDE0042BD26 /* _0191119_MichelOrtega_NYCSchoolsTests.swift */; };
+		5086697423881D5B0042BD26 /* HighSchoolsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5086697323881D5B0042BD26 /* HighSchoolsDirectory.swift */; };
+		50866976238854D20042BD26 /* HighSchoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50866975238854D20042BD26 /* HighSchoolTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		5086696023871CDE0042BD26 /* 20191119-MichelOrtega-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20191119-MichelOrtega-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5086696423871CDE0042BD26 /* _0191119_MichelOrtega_NYCSchoolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0191119_MichelOrtega_NYCSchoolsTests.swift; sourceTree = "<group>"; };
 		5086696623871CDE0042BD26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5086697323881D5B0042BD26 /* HighSchoolsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighSchoolsDirectory.swift; sourceTree = "<group>"; };
+		50866975238854D20042BD26 /* HighSchoolTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighSchoolTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				5086694A23871CDC0042BD26 /* AppDelegate.swift */,
 				5086694C23871CDC0042BD26 /* SceneDelegate.swift */,
 				5086694E23871CDC0042BD26 /* ViewController.swift */,
+				5086697323881D5B0042BD26 /* HighSchoolsDirectory.swift */,
+				50866975238854D20042BD26 /* HighSchoolTableViewCell.swift */,
 				5086695023871CDC0042BD26 /* Main.storyboard */,
 				5086695623871CDE0042BD26 /* Assets.xcassets */,
 				5086695823871CDE0042BD26 /* LaunchScreen.storyboard */,
@@ -206,6 +212,8 @@
 				5086694F23871CDC0042BD26 /* ViewController.swift in Sources */,
 				5086695523871CDC0042BD26 /* _0191119_MichelOrtega_NYCSchools.xcdatamodeld in Sources */,
 				5086694B23871CDC0042BD26 /* AppDelegate.swift in Sources */,
+				50866976238854D20042BD26 /* HighSchoolTableViewCell.swift in Sources */,
+				5086697423881D5B0042BD26 /* HighSchoolsDirectory.swift in Sources */,
 				5086694D23871CDC0042BD26 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
