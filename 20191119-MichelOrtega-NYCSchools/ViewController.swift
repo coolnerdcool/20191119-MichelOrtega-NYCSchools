@@ -11,15 +11,31 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
 	//	IBOutlets
-
+	
+	
 	// Properties
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
 		
-		let jsonString: String
+		let jsonString = "https://data.cityofnewyork.us/resource/s3k6-pzi2.json"
+		guard let url = URL(string: jsonString) else {return}
 		
+		URLSession.shared.dataTask(with: url) { (data, response, error) in
+			print("working")
+			//	check errors
+			// check response
+			guard let data = data else {return}
+			
+			do {
+				let highSchools = try JSONDecoder().decode([HighSchoolsDirectory].self, from: data)
+				print(highSchools)
+			} catch let jsonErr {
+				print("error with the json:", jsonErr)
+			}			
+
+		}.resume()
 		
 		
 	}

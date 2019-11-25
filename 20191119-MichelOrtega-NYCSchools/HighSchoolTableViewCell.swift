@@ -10,7 +10,11 @@ import UIKit
 
 class HighSchoolTableViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
+	//	IBOutlets
+	
+	@IBOutlet weak var tableViewCell: UIView!
+	
+	override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
